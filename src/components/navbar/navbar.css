@@ -1,0 +1,45 @@
+.navbar {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navbar .nav-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav-icons .notifications {
+  position: relative;
+}
+.navbar .nav-icons .notifications span {
+  position: absolute;
+  right: -10px;
+  top: -5px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+}
+.navbar .nav-icons .profile {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.navbar .nav-icons .profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

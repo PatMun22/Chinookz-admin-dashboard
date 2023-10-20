@@ -1,0 +1,14 @@
+.orders .info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.orders .info h1 {
+  font-size: 20px;
+}
+.orders .info button {
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

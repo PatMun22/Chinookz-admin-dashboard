@@ -1,0 +1,14 @@
+.products .info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.products .info h1 {
+  font-size: 20px;
+}
+.products .info button {
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
