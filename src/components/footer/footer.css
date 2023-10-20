@@ -4,3 +4,16 @@
   align-items: center;
   justify-content: space-between;
 }
+.footer h3 {
+  font-size: 12px;
+}
+.footer .footer-right {
+  display: flex;
+  gap: 5px;
+}
+.footer .footer-right p {
+  font-size: 12px;
+}
+.footer .footer-right p span {
+  color: #ddd;
+}

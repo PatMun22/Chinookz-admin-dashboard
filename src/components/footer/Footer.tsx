@@ -1,13 +1,16 @@
 import "./footer.scss";
-//import PiCopyrightFill from "react-icons/pi";
+import { PiCopyrightFill } from "react-icons/pi";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-left">
-        <h3>TolewAdmin</h3>
+      <h3>TolewAdmin</h3>
+      <div className="footer-right">
+        <PiCopyrightFill />
+        <p>
+          All rights reserved. Tolew. <span>Designed by Waphwebs</span>
+        </p>
       </div>
-      <div className="footer-right"></div>
     </div>
   );
 };

@@ -1,6 +1,24 @@
+@import "../../styles/variabes.scss";
+
 .footer {
   padding: 5px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .footer-right {
+    display: flex;
+    gap: 5px;
+
+    p {
+      font-size: 12px;
+      span {
+        color: $soft-color;
+      }
+    }
+  }
 }

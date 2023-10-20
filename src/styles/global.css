@@ -12,13 +12,14 @@ a {
 .main {
   background-color: #2a3447;
   color: white;
+  max-height: 100vh;
 }
 
 .container {
   display: flex;
 }
 .container .menuContainer {
-  width: 250px;
+  width: 200px;
   padding: 5px 20px;
   border-right: 2px solid #384256;
 }
