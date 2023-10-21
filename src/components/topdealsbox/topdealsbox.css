@@ -1,0 +1,37 @@
+.topdealsbox {
+  display: flex;
+  flex-direction: column;
+}
+.topdealsbox h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.topdealsbox .topdeals-container {
+  display: flex;
+  flex-direction: column;
+}
+.topdealsbox .topdeals-container .topdeal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.topdealsbox .topdeals-container .topdeal .dealer-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.topdealsbox .topdeals-container .topdeal .dealer-profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.topdealsbox .topdeals-container .topdeal .dealer-profile .dealer-details p {
+  font-size: 14px;
+}
+.topdealsbox .topdeals-container .topdeal .dealer-profile .dealer-details span {
+  font-size: 12px;
+  color: #ddd;
+}

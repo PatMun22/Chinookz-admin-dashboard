@@ -1,0 +1,34 @@
+.piechartbox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.piechartbox h1 {
+  font-size: 20px;
+}
+.piechartbox .chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.piechartbox .legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.piechartbox .legend .option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.piechartbox .legend .option .title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.piechartbox .legend .option .title .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

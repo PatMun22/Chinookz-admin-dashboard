@@ -1,0 +1,12 @@
+.areachart {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.areachart h1 {
+  font-size: 20px;
+}
+.areachart .chart {
+  height: 300px;
+}

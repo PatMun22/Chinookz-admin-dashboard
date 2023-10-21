@@ -188,7 +188,7 @@ export const chartBoxRevenue = {
   color: "teal",
   icon: "/revenueIcon.svg",
   title: "Total Revenues",
-  number: "Ksh.6376",
+  number: "Ksh. 6,376",
   dataKey: "revenue",
   percentage: -12,
   chartData: [
