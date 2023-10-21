@@ -1,9 +1,9 @@
-import "./users.scss";
 import { GridColDef } from "@mui/x-data-grid";
-import { rows } from "../../data";
-import { useState } from "react";
-import Adding from "../../components/Adding/Adding";
 import GridTable from "../../components/gridTable/GridTable";
+import "./users.scss";
+import { rows } from "../../data";
+import Adding from "../../components/Adding/Adding";
+import { useState } from "react";
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 90 },
@@ -55,19 +55,19 @@ const columns: GridColDef[] = [
   },
 ];
 
-function Users() {
+const Users = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <div className="users">
       <div className="info">
         <h1>Users</h1>
-        <button onClick={() => setOpen(true)}>Add New User</button>
+        <button onClick={() => setOpen(true)}>Add New User </button>
       </div>
-      <GridTable slug="posts" columns={columns} rows={rows} />
-      {open && <Adding slug="post" columns={columns} setOpen={setOpen} />}
+      <GridTable slug="users" columns={columns} rows={rows} />
+      {open && <Adding slug="User" columns={columns} setOpen={setOpen} />}
     </div>
   );
-}
+};
 
 export default Users;

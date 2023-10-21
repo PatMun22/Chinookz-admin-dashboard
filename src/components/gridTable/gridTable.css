@@ -1,0 +1,27 @@
+.gridtable .datagrid {
+  background-color: white;
+}
+.gridtable .datagrid .MuiDataGrid-toolbarContainer {
+  flex-direction: row-reverse;
+}
+.gridtable .datagrid img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gridtable .datagrid .action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  font-size: 14px;
+}
+.gridtable .datagrid .action .view img,
+.gridtable .datagrid .action .delete img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

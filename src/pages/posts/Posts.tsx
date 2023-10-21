@@ -65,7 +65,7 @@ function Posts() {
         <button onClick={() => setOpen(true)}>Add New Post</button>
       </div>
       <GridTable slug="posts" columns={columns} rows={products} />
-      {open && <Adding slug="post" columns={columns} setOpen={setOpen} />}
+      {open && <Adding slug="Post" columns={columns} setOpen={setOpen} />}
     </div>
   );
 }

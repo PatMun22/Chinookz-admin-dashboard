@@ -1,0 +1,35 @@
+@import "../../styles/variabes.scss";
+.gridtable {
+  .datagrid {
+    background-color: $main-color;
+
+    .MuiDataGrid-toolbarContainer {
+      flex-direction: row-reverse;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 20px;
+
+      .view,
+      .delete {
+        img {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+      }
+      font-size: 14px;
+    }
+  }
+}

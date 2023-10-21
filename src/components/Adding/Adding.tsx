@@ -6,7 +6,7 @@ import { GridColDef } from "@mui/x-data-grid";
 type Props = {
   slug: string;
   columns: GridColDef[];
-  setOpen: any;
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 function Adding(props: Props) {
@@ -14,7 +14,7 @@ function Adding(props: Props) {
     e.preventDefault();
 
     //add item
-    //axios.post(`/api/${slug}s`);
+    //axios.post(`/api/${slug}s`, {parse data});
   };
 
   return (
@@ -24,7 +24,7 @@ function Adding(props: Props) {
           className="closeIcon"
           onClick={() => props.setOpen(false)}
         />
-        <h1>Add a new {props.slug}</h1>
+        <h1>Add a New {props.slug}</h1>
         <form onSubmit={handleSubmit}>
           {props.columns
             .filter((item) => item.field !== "id" && item.field !== "avatar")
