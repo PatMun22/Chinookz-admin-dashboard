@@ -1,0 +1,96 @@
+.single {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.single .singleView {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.single .singleView .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.single .singleView .info .topInfo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.single .singleView .info .topInfo img {
+  height: 80px;
+  width: 80px;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single .singleView .info .topInfo h1 {
+  font-weight: 500;
+}
+.single .singleView .info .topInfo button {
+  padding: 2px 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  border: none;
+  background-color: pink;
+  cursor: pointer;
+}
+.single .singleView .info .details {
+  font-size: 18px;
+}
+.single .singleView .info .details .item {
+  margin-bottom: 5px;
+}
+.single .singleView .info .details .item .itemTitle {
+  font-weight: 600;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+.single .singleView hr {
+  border: 0.5px solid gray;
+  height: 0;
+  width: 90%;
+  margin-top: 10px;
+}
+.single .singleView .singleChart {
+  width: 80%;
+  margin-top: 50px;
+  height: 250px;
+}
+.single .singleActivities {
+  flex: 1;
+}
+.single .singleActivities ul li {
+  list-style-type: none;
+  position: relative;
+  width: 1px;
+  padding-top: 40px;
+  background-color: #f45b69;
+}
+.single .singleActivities ul li ::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #f45b69;
+  transform: translateX(-50%);
+}
+.single .singleActivities ul li div {
+  min-width: 480px;
+  padding: 10px 20px;
+  background-color: rgba(244, 91, 104, 0.062745098);
+}
+.single .singleActivities ul li div p {
+  margin-bottom: 5px;
+}
+.single .singleActivities ul li div time {
+  font-size: 12px;
+}

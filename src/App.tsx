@@ -9,6 +9,10 @@ import Navbar from "./components/navbar/Navbar";
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
 import Login from "./components/login/Login";
+import User from "./pages/user/User";
+import Product from "./pages/product/Product";
+import Post from "./pages/post/Post";
+import Order from "./pages/order/Order";
 
 export const App = () => {
   const Layout = () => {
@@ -37,20 +41,36 @@ export const App = () => {
           element: <Home />,
         },
         {
-          path: "users",
+          path: "/users",
           element: <Users />,
         },
         {
-          path: "products",
+          path: "/products",
           element: <Products />,
         },
         {
-          path: "orders",
+          path: "/orders",
           element: <Orders />,
         },
         {
-          path: "posts",
+          path: "/posts",
           element: <Posts />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
+        },
+        {
+          path: "/orders/:id",
+          element: <Order />,
+        },
+        {
+          path: "/posts/:id",
+          element: <Post />,
         },
       ],
     },

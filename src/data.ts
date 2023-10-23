@@ -543,3 +543,92 @@ export const products = [
     inStock: false,
   },
 ];
+
+export const singleUser = {
+  id: 1,
+  title: "Eula Hubbard",
+  img: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
+
+  info: {
+    username: "EulaH",
+    fullname: "Eula Hubbard",
+    email: "kez@gmail.com",
+    phone: "0123 769 564",
+    status: "verified",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "#82ca9d" },
+      { name: "clicks", color: "#8884d8" },
+    ],
+    data: [
+      { name: "Sun", visits: 4000, orders: 2400 },
+      { name: "Mon", visits: 3000, orders: 1398 },
+      { name: "Tue", visits: 2000, orders: 3800 },
+      { name: "Wed", visits: 2780, orders: 3908 },
+      { name: "Thu", visits: 1890, orders: 4800 },
+      { name: "Fri", visits: 1300, orders: 1400 },
+      { name: "Sat", visits: 2500, orders: 4300 },
+    ],
+  },
+  activities: [
+    {
+      text: "Eula Hubbard added Canon EOS 7 into their wishlist",
+      time: "1 days ago",
+    },
+    { text: "Patrick Hubbard purchased Canon EOS 7", time: "2 days ago" },
+    { text: "Chris Hubbard purchased Canon EOS 7", time: "6 days ago" },
+    { text: "Sarah Hubbard purchased Canon EOS 7", time: "1 week ago" },
+    {
+      text: "Dante Hubbard added Canon EOS 7 into their wishlist",
+      time: "3 weeks ago",
+    },
+  ],
+};
+
+export const singleProduct = {
+  id: 1,
+  title: "Canon EOS 7",
+  img: "https://images.pexels.com/photos/10252290/pexels-photo-10252290.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+  info: {
+    productId: "CEuiop456",
+    color: "Black",
+    price: "Ksh. 57,999",
+    producer: "Canon Inc.",
+    export: "Japan",
+  },
+  chart: {
+    dataKeys: [
+      {
+        name: "visits",
+        color: "#82ca9d",
+      },
+      {
+        name: "orders",
+        color: "#8884d8",
+      },
+    ],
+    data: [
+      { name: "Sun", visits: 4000, orders: 2400 },
+      { name: "Mon", visits: 3000, orders: 1398 },
+      { name: "Tue", visits: 2000, orders: 3800 },
+      { name: "Wed", visits: 2780, orders: 3908 },
+      { name: "Thu", visits: 1890, orders: 4800 },
+      { name: "Fri", visits: 1300, orders: 1400 },
+      { name: "Sat", visits: 2500, orders: 4300 },
+    ],
+  },
+  activities: [
+    {
+      text: "Eula Hubbard added Canon EOS 7 into their wishlist",
+      time: "1 days ago",
+    },
+    { text: "Patrick Hubbard purchased Canon EOS 7", time: "2 days ago" },
+    { text: "Chris Hubbard purchased Canon EOS 7", time: "6 days ago" },
+    { text: "Sarah Hubbard purchased Canon EOS 7", time: "1 week ago" },
+    {
+      text: "Dante Hubbard added Canon EOS 7 into their wishlist",
+      time: "3 weeks ago",
+    },
+  ],
+};
