@@ -1,10 +1,15 @@
 @import "../../styles/variabes.scss";
+@import "../../styles//responsive.scss";
 
 .footer {
   padding: 5px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @include lg {
+    padding: 5px 5px;
+  }
 
   h3 {
     font-size: 12px;

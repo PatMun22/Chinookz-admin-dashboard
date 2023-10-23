@@ -14,8 +14,18 @@
   align-items: center;
   font-size: 18px;
 }
+@media screen and (max-width: 1400px) {
+  .chartbox .chartboxleft .left-top {
+    font-size: 14px;
+  }
+}
 .chartbox .chartboxleft h1 {
   font-size: 25px;
+}
+@media screen and (max-width: 1400px) {
+  .chartbox .chartboxleft h1 {
+    font-size: 20px;
+  }
 }
 .chartbox .chartboxright {
   flex: 2;
@@ -35,6 +45,11 @@
 .chartbox .chartboxright .chart-details .percentage {
   font-weight: bold;
   font-size: 20px;
+}
+@media screen and (max-width: 1400px) {
+  .chartbox .chartboxright .chart-details .percentage {
+    font-size: 16px;
+  }
 }
 .chartbox .chartboxright .chart-details .timeline {
   font-size: 14px;

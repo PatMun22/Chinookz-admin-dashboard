@@ -1,3 +1,5 @@
+@import "../../styles/responsive.scss";
+
 .navbar {
   padding: 5px 20px;
   display: flex;
@@ -15,6 +17,12 @@
     gap: 15px;
     align-items: center;
     justify-content: space-between;
+
+    .icon {
+      @include sm {
+        display: none;
+      }
+    }
 
     .notifications {
       position: relative;

@@ -1,7 +1,13 @@
+@import "../../styles/responsive.scss";
+
 .single {
   display: flex;
   width: 100%;
-  gap: 20px;
+
+  @include xl {
+    flex-direction: column;
+    gap: 50px;
+  }
 
   .singleView {
     flex: 1;
@@ -21,6 +27,13 @@
         justify-content: start;
         gap: 5px;
         margin-bottom: 10px;
+
+        @include md {
+          flex-direction: column;
+          gap: 20px;
+          align-items: start;
+          margin-bottom: 50px;
+        }
 
         img {
           height: 80px;
@@ -60,12 +73,20 @@
       height: 0;
       width: 90%;
       margin-top: 10px;
+
+      @include xl {
+        margin-top: 50px;
+      }
     }
 
     .singleChart {
       width: 80%;
       margin-top: 50px;
       height: 250px;
+
+      @include md {
+        display: none;
+      }
     }
   }
 
@@ -97,6 +118,11 @@
           min-width: 480px;
           padding: 10px 20px;
           background-color: #f45b6810;
+
+          @include md {
+            min-width: 200px;
+          }
+
           p {
             margin-bottom: 5px;
           }

@@ -12,7 +12,6 @@ a {
 .main {
   background-color: #2a3447;
   color: white;
-  max-height: 100vh;
 }
 
 .container {
@@ -22,6 +21,12 @@ a {
   width: 200px;
   padding: 5px 20px;
   border-right: 2px solid #384256;
+}
+@media screen and (max-width: 1024px) {
+  .container .menuContainer {
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 .container .contentContainer {
   padding: 5px 20px;

@@ -562,23 +562,32 @@ export const singleUser = {
       { name: "clicks", color: "#8884d8" },
     ],
     data: [
-      { name: "Sun", visits: 4000, orders: 2400 },
-      { name: "Mon", visits: 3000, orders: 1398 },
-      { name: "Tue", visits: 2000, orders: 3800 },
-      { name: "Wed", visits: 2780, orders: 3908 },
-      { name: "Thu", visits: 1890, orders: 4800 },
-      { name: "Fri", visits: 1300, orders: 1400 },
-      { name: "Sat", visits: 2500, orders: 4300 },
+      { name: "Sun", visits: 4000, clicks: 2400 },
+      { name: "Mon", visits: 3000, clicks: 1398 },
+      { name: "Tue", visits: 2000, clicks: 3800 },
+      { name: "Wed", visits: 2780, clicks: 3908 },
+      { name: "Thu", visits: 1890, clicks: 4800 },
+      { name: "Fri", visits: 1300, clicks: 1400 },
+      { name: "Sat", visits: 2500, clicks: 4300 },
     ],
   },
   activities: [
     {
-      text: "Eula Hubbard added Canon EOS 7 into their wishlist",
+      text: "Eula Hubbard purchased Canon EOS 7",
       time: "1 days ago",
     },
-    { text: "Patrick Hubbard purchased Canon EOS 7", time: "2 days ago" },
-    { text: "Chris Hubbard purchased Canon EOS 7", time: "6 days ago" },
-    { text: "Sarah Hubbard purchased Canon EOS 7", time: "1 week ago" },
+    {
+      text: "Patrick Hubbard added Canon EOS 7 into their wishlist",
+      time: "2 days ago",
+    },
+    {
+      text: "Chris Hubbard added Canon EOS 7 into their wishlist",
+      time: "6 days ago",
+    },
+    {
+      text: "Sarah Hubbard added Canon EOS 7 inot their wishlist",
+      time: "1 week ago",
+    },
     {
       text: "Dante Hubbard added Canon EOS 7 into their wishlist",
       time: "3 weeks ago",
